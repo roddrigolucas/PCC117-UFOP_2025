@@ -1,0 +1,22 @@
+#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# 3. Para CPU apenas:
+#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+#
+# 4. SuperPoint/SuperGlue (instalação manual):
+#    git clone https://github.com/magicleap/SuperGluePretrainedNetwork.git
+#    cd SuperGluePretrainedNetwork
+#    pip install -e .
+#
+# 5. Dependências de sistema (Ubuntu):
+#    sudo apt install libgl1-mesa-glx libegl1-mesa libxrandr2 libxss1
+#    sudo apt install libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+#
+# 6. Open3D pode requerer:
+#    sudo apt install libgl1-mesa-dev
+#
+# 7. Para Jetson/ARM:
+#    Usar versões específicas do PyTorch para ARM
+#    https://forums.developer.nvidia.com/c/agx-autonomous-machines/jetson-embedded-systems/
+#
+# ==============================================================================
